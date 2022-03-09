@@ -1,4 +1,4 @@
-name: quicfire-mic
+name: quicfire-api-mic
 channels:
   - conda-forge
   - defaults
