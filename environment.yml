@@ -1,0 +1,15 @@
+name: quicfire-mic
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pandas
+  - requests
+  - s3fs
+  - tqdm
+  - zarr
+  - pillow
+  - matplotlib
+  - ipytree
+  - pip:
+    - https://raw.githubusercontent.com/KnowledgeCaptureAndDiscovery/quicfire-mic/main/dist/bp3d-0.1.0-py3-none-any.whl  
